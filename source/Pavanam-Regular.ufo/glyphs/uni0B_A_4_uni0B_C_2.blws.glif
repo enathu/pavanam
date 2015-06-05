@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0BA4_uni0BC2.blws" format="1">
+  <advance width="1158"/>
+  <outline>
+    <contour>
+      <point x="736" y="480" type="line"/>
+      <point x="736" y="0" type="line"/>
+      <point x="796" y="0" type="line"/>
+      <point x="796" y="427" type="line"/>
+      <point x="1104" y="427" type="line"/>
+      <point x="1104" y="480" type="line"/>
+    </contour>
+    <contour>
+      <point x="941" y="-72" type="line"/>
+      <point x="1001" y="-72" type="line"/>
+      <point x="1001" y="468" type="line"/>
+      <point x="941" y="468" type="line"/>
+    </contour>
+    <component base="uni0BA4_uni0BC1.blws"/>
+  </outline>
+</glyph>

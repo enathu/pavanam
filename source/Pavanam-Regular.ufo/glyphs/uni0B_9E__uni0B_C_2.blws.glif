@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0B9E_uni0BC2.blws" format="1">
+  <advance width="1221"/>
+  <outline>
+    <contour>
+      <point x="745" y="480" type="line"/>
+      <point x="745" y="0" type="line"/>
+      <point x="805" y="0" type="line"/>
+      <point x="805" y="427" type="line"/>
+      <point x="1113" y="427" type="line"/>
+      <point x="1113" y="480" type="line"/>
+    </contour>
+    <contour>
+      <point x="955" y="-72" type="line"/>
+      <point x="1015" y="-72" type="line"/>
+      <point x="1015" y="468" type="line"/>
+      <point x="955" y="468" type="line"/>
+    </contour>
+    <component base="uni0B9E_uni0BC1.blws" xOffset="-10"/>
+  </outline>
+</glyph>

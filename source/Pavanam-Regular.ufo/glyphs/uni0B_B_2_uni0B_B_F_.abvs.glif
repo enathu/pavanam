@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0BB2_uni0BBF.abvs" format="1">
+  <advance width="858"/>
+  <outline>
+    <contour>
+      <point x="818" y="552" type="line" smooth="yes"/>
+      <point x="818" y="651"/>
+      <point x="734" y="720"/>
+      <point x="614" y="720" type="curve" smooth="yes"/>
+      <point x="515" y="720"/>
+      <point x="446" y="658"/>
+      <point x="446" y="567" type="curve" smooth="yes"/>
+      <point x="446" y="490"/>
+      <point x="491" y="438"/>
+      <point x="558" y="438" type="curve"/>
+      <point x="558" y="478" type="line"/>
+      <point x="529" y="478"/>
+      <point x="506" y="514"/>
+      <point x="506" y="567" type="curve" smooth="yes"/>
+      <point x="506" y="637"/>
+      <point x="548" y="680"/>
+      <point x="614" y="680" type="curve" smooth="yes"/>
+      <point x="702" y="680"/>
+      <point x="758" y="630"/>
+      <point x="758" y="552" type="curve" smooth="yes"/>
+      <point x="758" y="47" type="line"/>
+      <point x="818" y="47" type="line"/>
+    </contour>
+    <component base="uni0BB2"/>
+  </outline>
+</glyph>

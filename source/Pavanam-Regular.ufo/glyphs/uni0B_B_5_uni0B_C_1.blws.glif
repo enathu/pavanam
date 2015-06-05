@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0BB5_uni0BC1.blws" format="1">
+  <advance width="761"/>
+  <outline>
+    <contour>
+      <point x="716" y="-195" type="line"/>
+      <point x="716" y="65" type="line"/>
+      <point x="656" y="65" type="line"/>
+      <point x="656" y="-195" type="line"/>
+    </contour>
+    <component base="uni0BB5"/>
+  </outline>
+</glyph>

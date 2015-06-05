@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ta_kshi" format="1">
+  <advance width="1430"/>
+  <outline>
+    <component base="ta_ksha"/>
+    <component base="uni0BBF" xOffset="1008" yOffset="20"/>
+  </outline>
+</glyph>
