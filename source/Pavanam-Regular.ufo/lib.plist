@@ -5,11 +5,11 @@
 	<key>com.schriftgestaltung.fontMaster.userData</key>
 	<dict>
 		<key>GSOffsetHorizontal</key>
-		<integer>30</integer>
+		<real>30</real>
 		<key>GSOffsetMakeStroke</key>
 		<integer>1</integer>
 		<key>GSOffsetVertical</key>
-		<integer>20</integer>
+		<real>20</real>
 	</dict>
 	<key>com.schriftgestaltung.fontMasterID</key>
 	<string>3CBE5E08-DB74-4848-BA90-2F50A5ED1148</string>
