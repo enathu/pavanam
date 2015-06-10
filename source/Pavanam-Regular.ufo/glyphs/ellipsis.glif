@@ -4,22 +4,22 @@
   <unicode hex="2026"/>
   <outline>
     <contour>
-      <point x="607" y="109" type="line"/>
-      <point x="607" y="-4" type="line"/>
-      <point x="513" y="-4" type="line"/>
-      <point x="513" y="109" type="line"/>
-    </contour>
-    <contour>
-      <point x="387" y="109" type="line"/>
-      <point x="387" y="-4" type="line"/>
-      <point x="293" y="-4" type="line"/>
-      <point x="293" y="109" type="line"/>
-    </contour>
-    <contour>
-      <point x="166" y="109" type="line"/>
       <point x="166" y="-4" type="line"/>
       <point x="72" y="-4" type="line"/>
       <point x="72" y="109" type="line"/>
+      <point x="166" y="109" type="line"/>
+    </contour>
+    <contour>
+      <point x="387" y="-4" type="line"/>
+      <point x="293" y="-4" type="line"/>
+      <point x="293" y="109" type="line"/>
+      <point x="387" y="109" type="line"/>
+    </contour>
+    <contour>
+      <point x="607" y="-4" type="line"/>
+      <point x="513" y="-4" type="line"/>
+      <point x="513" y="109" type="line"/>
+      <point x="607" y="109" type="line"/>
     </contour>
   </outline>
 </glyph>

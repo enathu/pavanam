@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ta_nuu" format="1">
+  <advance width="1040"/>
+  <outline>
+    <contour>
+      <point x="632" y="255" type="line"/>
+      <point x="632" y="480" type="line"/>
+      <point x="1000" y="480" type="line"/>
+      <point x="1000" y="427" type="line"/>
+      <point x="897" y="427" type="line"/>
+      <point x="897" y="-115" type="line"/>
+      <point x="837" y="-115" type="line"/>
+      <point x="837" y="427" type="line"/>
+      <point x="692" y="427" type="line"/>
+      <point x="692" y="185" type="line"/>
+    </contour>
+    <component base="ta_nu" xOffset="1"/>
+  </outline>
+</glyph>

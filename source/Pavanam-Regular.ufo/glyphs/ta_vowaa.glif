@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ta_vowaa" format="1">
+  <advance width="448"/>
+  <unicode hex="0BBE"/>
+  <outline>
+    <contour>
+      <point x="40" y="480" type="line"/>
+      <point x="408" y="480" type="line"/>
+      <point x="408" y="427" type="line"/>
+      <point x="295" y="427" type="line"/>
+      <point x="295" y="0" type="line"/>
+      <point x="235" y="0" type="line"/>
+      <point x="235" y="427" type="line"/>
+      <point x="100" y="427" type="line"/>
+      <point x="100" y="0" type="line"/>
+      <point x="40" y="0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

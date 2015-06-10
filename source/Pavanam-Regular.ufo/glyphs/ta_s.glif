@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ta_s" format="1">
+  <advance width="943"/>
+  <outline>
+    <contour>
+      <point x="488" y="568"/>
+      <point x="463" y="544"/>
+      <point x="434" y="544" type="curve" smooth="yes"/>
+      <point x="403" y="544"/>
+      <point x="380" y="568"/>
+      <point x="380" y="599" type="curve" smooth="yes"/>
+      <point x="380" y="628"/>
+      <point x="403" y="652"/>
+      <point x="434" y="652" type="curve" smooth="yes"/>
+      <point x="463" y="652"/>
+      <point x="488" y="628"/>
+      <point x="488" y="599" type="curve" smooth="yes"/>
+    </contour>
+    <component base="ta_sa" xOffset="9"/>
+  </outline>
+</glyph>

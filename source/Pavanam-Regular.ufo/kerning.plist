@@ -7,6 +7,11 @@
 		<key>g</key>
 		<integer>-18</integer>
 	</dict>
+	<key>H</key>
+	<dict>
+		<key>ta_ksha</key>
+		<integer>-55</integer>
+	</dict>
 	<key>L</key>
 	<dict>
 		<key>quotedblright</key>
@@ -33,40 +38,47 @@
 		<key>g</key>
 		<integer>-28</integer>
 	</dict>
+	<key>ta_ha</key>
+	<dict>
+		<key>ta_vowu</key>
+		<integer>-224</integer>
+		<key>ta_vowuu</key>
+		<integer>-208</integer>
+	</dict>
+	<key>ta_ja</key>
+	<dict>
+		<key>ta_vowu</key>
+		<integer>-125</integer>
+		<key>ta_vowuu</key>
+		<integer>-125</integer>
+	</dict>
 	<key>ta_ksha</key>
 	<dict>
-		<key>uni0BC1</key>
-		<integer>-256</integer>
-		<key>uni0BC2</key>
-		<integer>-256</integer>
+		<key>ta_vowu</key>
+		<integer>-204</integer>
+		<key>ta_vowuu</key>
+		<integer>-211</integer>
 	</dict>
-	<key>uni0BB6</key>
+	<key>ta_sa</key>
 	<dict>
-		<key>uni0BC1</key>
-		<integer>-144</integer>
-		<key>uni0BC2</key>
-		<integer>-144</integer>
-	</dict>
-	<key>uni0BB7</key>
-	<dict>
-		<key>uni0BC1</key>
+		<key>ta_vowu</key>
 		<integer>-256</integer>
-		<key>uni0BC2</key>
-		<integer>-240</integer>
-	</dict>
-	<key>uni0BB8</key>
-	<dict>
-		<key>uni0BC1</key>
-		<integer>-256</integer>
-		<key>uni0BC2</key>
+		<key>ta_vowuu</key>
 		<integer>-208</integer>
 	</dict>
-	<key>uni0BB9</key>
+	<key>ta_sha</key>
 	<dict>
-		<key>uni0BC1</key>
-		<integer>-224</integer>
-		<key>uni0BC2</key>
-		<integer>-208</integer>
+		<key>ta_vowu</key>
+		<integer>-256</integer>
+		<key>ta_vowuu</key>
+		<integer>-188</integer>
+	</dict>
+	<key>ta_ssa</key>
+	<dict>
+		<key>ta_vowu</key>
+		<integer>-144</integer>
+		<key>ta_vowuu</key>
+		<integer>-144</integer>
 	</dict>
 </dict>
 </plist>

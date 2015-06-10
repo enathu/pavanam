@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ta_rii" format="1">
+  <advance width="573"/>
+  <outline>
+    <contour>
+      <point x="421" y="701" type="line"/>
+      <point x="409" y="701"/>
+      <point x="377" y="660"/>
+      <point x="377" y="622" type="curve" smooth="yes"/>
+      <point x="377" y="592"/>
+      <point x="394" y="576"/>
+      <point x="427" y="576" type="curve" smooth="yes"/>
+      <point x="455" y="576"/>
+      <point x="473" y="598"/>
+      <point x="473" y="637" type="curve" smooth="yes"/>
+      <point x="473" y="673"/>
+      <point x="438" y="696"/>
+      <point x="377" y="696" type="curve" smooth="yes"/>
+      <point x="299" y="696"/>
+      <point x="248" y="639"/>
+      <point x="248" y="550" type="curve" smooth="yes"/>
+      <point x="248" y="504"/>
+      <point x="287" y="476"/>
+      <point x="354" y="476" type="curve"/>
+      <point x="354" y="436" type="line"/>
+      <point x="257" y="436"/>
+      <point x="188" y="483"/>
+      <point x="188" y="550" type="curve" smooth="yes"/>
+      <point x="188" y="661"/>
+      <point x="264" y="736"/>
+      <point x="377" y="736" type="curve" smooth="yes"/>
+      <point x="467" y="736"/>
+      <point x="533" y="696"/>
+      <point x="533" y="637" type="curve" smooth="yes"/>
+      <point x="533" y="577"/>
+      <point x="490" y="536"/>
+      <point x="427" y="536" type="curve" smooth="yes"/>
+      <point x="363" y="536"/>
+      <point x="317" y="571"/>
+      <point x="317" y="622" type="curve" smooth="yes"/>
+      <point x="317" y="686"/>
+      <point x="350" y="727"/>
+      <point x="403" y="727" type="curve"/>
+    </contour>
+    <component base="ta_vowaa"/>
+  </outline>
+</glyph>
