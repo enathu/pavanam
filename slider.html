@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Pavanam Web Testing</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/font.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+</head>
+
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <h1>பவனம் - Pavanam</h1>
+        </div>
+        <div class="col-md-8 yellow">
+            <p>Pavanam typeface is currently under heavy development. Please feel free to send me bug reports, feature enhancements or glyph requests, using <a href="https://github.com/enathu/pavanam/issues">this project's Github Issue Tracker.</a></p>
+        </div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-md-12">
+            Change the size and test>>> <input type="range" min="10" max="100">
+        </div>
+    </div>
+    <section>
+    <div class="row">
+<div class="row">
+     <div class="col-md-12">
+          <span class="yellowbg">18px</span>
+     </div>
+</div>
+  <div id="white" class="col-md-6"> <p>சற்று ஆழ அவதானித்தால், எல்லாமே தோற்ற மயக்கங்களாகும் என்றே சொல்ல வேண்டிவரும். Time is a concept, and it's an illusion. நாம் இயல்பு வாழ்க்கையில் காண்கின்ற, காட்சித் தாமத நிலைகளைப் புறந்தள்ளிவிட மூளை துணையாகி நின்று, இந்தக் கணத்தில் வாழ்கின்ற தோற்ற மயக்கத்தை தோற்றுவிக்கிறது.</p>
+
+</div>
+
+<div id="gray" class="col-md-6"> <p>சற்று ஆழ அவதானித்தால், எல்லாமே தோற்ற மயக்கங்களாகும் என்றே சொல்ல வேண்டிவரும். Time is a concept, and it's an illusion. நாம் இயல்பு வாழ்க்கையில் காண்கின்ற, காட்சித் தாமத நிலைகளைப் புறந்தள்ளிவிட மூளை துணையாகி நின்று, இந்தக் கணத்தில் வாழ்கின்ற தோற்ற மயக்கத்தை தோற்றுவிக்கிறது.</p>
+
+</div>
+</div>
+    </section>
+    
+    
+    </div>
+    
+    <script>
+    $('input').on('change', function () {
+    var v = $(this).val();
+    $('section').css('font-size', v + 'px')
+    $('span').html(v);
+});</script>
+    </body>
+</html>
