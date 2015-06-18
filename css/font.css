@@ -1,13 +1,9 @@
 /* For testing purposes using TTF */
 
+
 @font-face {
-  font-family: 'Pavanam';
-  src: url('pavanam.eot'); /* IE9 Compat Modes */
-  src: url('pavanam.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('pavanam.woff2') format('woff2'), /* Super Modern Browsers */
-       url('pavanam.woff') format('woff'), /* Pretty Modern Browsers */
-       url('pavanam.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('pavanam.svg#svgFontName') format('svg'); /* Legacy iOS */
+    font-family:"Pavanam";
+    src: url("../font/pavanam.ttf") /* TTF file for CSS3 browsers */
 }
 
 
