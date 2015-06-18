@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tm_Pa" format="1">
+  <advance width="641"/>
+  <unicode hex="0BAA"/>
+  <outline>
+    <contour>
+      <point x="617" y="0" type="move" name="MARKS_CLASS_0_LUT1_SUB0"/>
+    </contour>
+    <contour>
+      <point x="324" y="0" type="move" name="MARKS_CLASS_0_LUT0_SUB0"/>
+    </contour>
+    <contour>
+      <point x="489" y="49" type="line"/>
+      <point x="489" y="499" type="line"/>
+      <point x="551" y="499" type="line"/>
+      <point x="551" y="0" type="line"/>
+      <point x="90" y="0" type="line"/>
+      <point x="90" y="499" type="line"/>
+      <point x="153" y="499" type="line"/>
+      <point x="153" y="49" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,33 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Zacute" format="1">
-  <advance width="476"/>
+  <advance width="545"/>
   <unicode hex="0179"/>
   <outline>
-    <contour>
-      <point x="303" y="784" type="line"/>
-      <point x="258" y="739" type="line"/>
-      <point x="237" y="721" type="line"/>
-      <point x="226" y="733" type="line"/>
-      <point x="215" y="745" type="line"/>
-      <point x="335" y="912" type="line"/>
-      <point x="385" y="875" type="line"/>
-      <point x="337" y="822" type="line"/>
-      <point x="334" y="817"/>
-      <point x="329" y="811"/>
-      <point x="321" y="803" type="curve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="426" y="38" type="line"/>
-      <point x="426" y="0" type="line"/>
-      <point x="65" y="0" type="line"/>
-      <point x="56" y="47" type="line"/>
-      <point x="348" y="589" type="line"/>
-      <point x="70" y="589" type="line"/>
-      <point x="70" y="627" type="line"/>
-      <point x="408" y="627" type="line"/>
-      <point x="412" y="605" type="line"/>
-      <point x="416" y="584" type="line"/>
-      <point x="124" y="38" type="line"/>
-    </contour>
+    <component base="acute" xOffset="249" yOffset="209"/>
+    <component base="Z"/>
   </outline>
 </glyph>

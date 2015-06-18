@@ -1,51 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Acircumflex" format="1">
-  <advance width="551"/>
+  <advance width="565"/>
   <unicode hex="00C2"/>
   <outline>
-    <contour>
-      <point x="169" y="724" type="line"/>
-      <point x="128" y="762" type="line"/>
-      <point x="177" y="818"/>
-      <point x="217" y="860"/>
-      <point x="248" y="889" type="curve"/>
-      <point x="262" y="889"/>
-      <point x="271" y="889"/>
-      <point x="275" y="890" type="curve"/>
-      <point x="301" y="890" type="line"/>
-      <point x="342" y="849"/>
-      <point x="383" y="807"/>
-      <point x="422" y="762" type="curve"/>
-      <point x="381" y="724" type="line"/>
-      <point x="276" y="843" type="line"/>
-    </contour>
-    <contour>
-      <point x="124" y="766" type="line"/>
-      <point x="124" y="758" type="line"/>
-      <point x="128" y="762" type="line"/>
-    </contour>
-    <contour>
-      <point x="426" y="758" type="line"/>
-      <point x="426" y="766" type="line"/>
-      <point x="422" y="762" type="line"/>
-      <point x="422" y="761"/>
-      <point x="422" y="761"/>
-      <point x="423" y="761" type="curve"/>
-    </contour>
-    <contour>
-      <point x="458" y="0" type="line"/>
-      <point x="409" y="163" type="line"/>
-      <point x="147" y="163" type="line"/>
-      <point x="96" y="0" type="line"/>
-      <point x="32" y="0" type="line"/>
-      <point x="233" y="627" type="line"/>
-      <point x="327" y="627" type="line"/>
-      <point x="519" y="0" type="line"/>
-    </contour>
-    <contour>
-      <point x="395" y="201" type="line"/>
-      <point x="280" y="586" type="line"/>
-      <point x="161" y="201" type="line"/>
-    </contour>
+    <component base="circumflex" xOffset="86" yOffset="209"/>
+    <component base="A"/>
   </outline>
 </glyph>

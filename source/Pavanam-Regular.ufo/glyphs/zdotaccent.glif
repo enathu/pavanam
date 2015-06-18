@@ -1,28 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zdotaccent" format="1">
-  <advance width="405"/>
+  <advance width="408"/>
   <unicode hex="017C"/>
   <outline>
-    <contour>
-      <point x="262" y="563" type="line"/>
-      <point x="168" y="563" type="line"/>
-      <point x="168" y="676" type="line"/>
-      <point x="262" y="676" type="line"/>
-    </contour>
-    <contour>
-      <point x="290" y="439" type="line"/>
-      <point x="68" y="439" type="line"/>
-      <point x="68" y="480" type="line"/>
-      <point x="350" y="480" type="line"/>
-      <point x="353" y="461" type="line"/>
-      <point x="354" y="458"/>
-      <point x="354" y="452"/>
-      <point x="354" y="441" type="curve"/>
-      <point x="129" y="40" type="line"/>
-      <point x="361" y="40" type="line"/>
-      <point x="361" y="0" type="line"/>
-      <point x="70" y="0" type="line"/>
-      <point x="62" y="45" type="line"/>
-    </contour>
+    <component base="dotaccent" xOffset="86.5" yOffset="-58"/>
+    <component base="z"/>
   </outline>
 </glyph>

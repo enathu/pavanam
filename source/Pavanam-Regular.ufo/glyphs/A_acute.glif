@@ -1,35 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Aacute" format="1">
-  <advance width="551"/>
+  <advance width="565"/>
   <unicode hex="00C1"/>
   <outline>
-    <contour>
-      <point x="337" y="784" type="line"/>
-      <point x="292" y="739" type="line"/>
-      <point x="271" y="721" type="line"/>
-      <point x="260" y="733" type="line"/>
-      <point x="249" y="745" type="line"/>
-      <point x="369" y="912" type="line"/>
-      <point x="419" y="875" type="line"/>
-      <point x="371" y="822" type="line"/>
-      <point x="368" y="817"/>
-      <point x="363" y="811"/>
-      <point x="355" y="803" type="curve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="458" y="0" type="line"/>
-      <point x="409" y="163" type="line"/>
-      <point x="147" y="163" type="line"/>
-      <point x="96" y="0" type="line"/>
-      <point x="32" y="0" type="line"/>
-      <point x="233" y="627" type="line"/>
-      <point x="327" y="627" type="line"/>
-      <point x="519" y="0" type="line"/>
-    </contour>
-    <contour>
-      <point x="395" y="201" type="line"/>
-      <point x="280" y="586" type="line"/>
-      <point x="161" y="201" type="line"/>
-    </contour>
+    <component base="acute" xOffset="238" yOffset="209"/>
+    <component base="A"/>
   </outline>
 </glyph>

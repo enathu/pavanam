@@ -3,56 +3,7 @@
   <advance width="504"/>
   <unicode hex="0148"/>
   <outline>
-    <contour>
-      <point x="322" y="720" type="line"/>
-      <point x="349" y="756" type="line"/>
-      <point x="389" y="729" type="line"/>
-      <point x="387" y="727" type="line"/>
-      <point x="361" y="690"/>
-      <point x="324" y="644"/>
-      <point x="276" y="590" type="curve"/>
-      <point x="269" y="580"/>
-      <point x="261" y="575"/>
-      <point x="252" y="575" type="curve" smooth="yes"/>
-      <point x="243" y="575"/>
-      <point x="235" y="580"/>
-      <point x="228" y="590" type="curve"/>
-      <point x="180" y="644"/>
-      <point x="143" y="690"/>
-      <point x="117" y="727" type="curve"/>
-      <point x="115" y="729" type="line"/>
-      <point x="126" y="736"/>
-      <point x="140" y="745"/>
-      <point x="155" y="756" type="curve"/>
-      <point x="252" y="627" type="line"/>
-      <point x="300" y="691" type="line"/>
-    </contour>
-    <contour>
-      <point x="396" y="725" type="line"/>
-      <point x="395" y="733" type="line"/>
-      <point x="389" y="729" type="line"/>
-    </contour>
-    <contour>
-      <point x="133" y="0" type="line"/>
-      <point x="73" y="0" type="line"/>
-      <point x="73" y="480" type="line"/>
-      <point x="120" y="480" type="line"/>
-      <point x="126" y="448" type="line"/>
-      <point x="187" y="477"/>
-      <point x="231" y="488"/>
-      <point x="286" y="488" type="curve" smooth="yes"/>
-      <point x="390" y="488"/>
-      <point x="436" y="437"/>
-      <point x="436" y="324" type="curve" smooth="yes"/>
-      <point x="436" y="0" type="line"/>
-      <point x="375" y="0" type="line"/>
-      <point x="375" y="326" type="line" smooth="yes"/>
-      <point x="375" y="411"/>
-      <point x="353" y="439"/>
-      <point x="282" y="439" type="curve" smooth="yes"/>
-      <point x="226" y="439"/>
-      <point x="176" y="427"/>
-      <point x="133" y="402" type="curve"/>
-    </contour>
+    <component base="caron" xOffset="55.5" yOffset="2"/>
+    <component base="n"/>
   </outline>
 </glyph>

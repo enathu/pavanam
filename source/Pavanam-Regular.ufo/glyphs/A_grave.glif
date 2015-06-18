@@ -1,44 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Agrave" format="1">
-  <advance width="551"/>
+  <advance width="565"/>
   <unicode hex="00C0"/>
   <outline>
-    <contour>
-      <point x="146" y="886"/>
-      <point x="154" y="892"/>
-      <point x="155" y="893" type="curve"/>
-      <point x="179" y="912" type="line"/>
-      <point x="299" y="745" type="line"/>
-      <point x="275" y="721" type="line"/>
-      <point x="273" y="722" type="line"/>
-      <point x="274" y="722" type="line"/>
-      <point x="230" y="763"/>
-      <point x="198" y="794"/>
-      <point x="178" y="816" type="curve"/>
-      <point x="154" y="845" type="line"/>
-      <point x="152" y="847"/>
-      <point x="144" y="857"/>
-      <point x="129" y="874" type="curve"/>
-    </contour>
-    <contour>
-      <point x="275" y="721" type="line"/>
-      <point x="276" y="721" type="line"/>
-      <point x="276" y="720" type="line"/>
-    </contour>
-    <contour>
-      <point x="458" y="0" type="line"/>
-      <point x="409" y="163" type="line"/>
-      <point x="147" y="163" type="line"/>
-      <point x="96" y="0" type="line"/>
-      <point x="32" y="0" type="line"/>
-      <point x="233" y="627" type="line"/>
-      <point x="327" y="627" type="line"/>
-      <point x="519" y="0" type="line"/>
-    </contour>
-    <contour>
-      <point x="280" y="586" type="line"/>
-      <point x="161" y="201" type="line"/>
-      <point x="395" y="201" type="line"/>
-    </contour>
+    <component base="grave" xOffset="97.5" yOffset="209"/>
+    <component base="A"/>
   </outline>
 </glyph>

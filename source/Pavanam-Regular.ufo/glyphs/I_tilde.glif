@@ -1,81 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Itilde" format="1">
-  <advance width="372"/>
+  <advance width="216"/>
   <unicode hex="0128"/>
   <outline>
-    <contour>
-      <point x="307" y="812" type="line"/>
-      <point x="302" y="815" type="line"/>
-      <point x="311" y="820" type="line"/>
-    </contour>
-    <contour>
-      <point x="243" y="717"/>
-      <point x="213" y="726"/>
-      <point x="171" y="743" type="curve"/>
-      <point x="173" y="743" type="line"/>
-      <point x="145" y="757"/>
-      <point x="126" y="764"/>
-      <point x="115" y="764" type="curve" smooth="yes"/>
-      <point x="108" y="764"/>
-      <point x="99" y="760"/>
-      <point x="90" y="753" type="curve"/>
-      <point x="83" y="744"/>
-      <point x="75" y="732"/>
-      <point x="67" y="716" type="curve"/>
-      <point x="30" y="738" type="line"/>
-      <point x="45" y="769"/>
-      <point x="58" y="789"/>
-      <point x="70" y="800" type="curve"/>
-      <point x="81" y="812"/>
-      <point x="95" y="818"/>
-      <point x="111" y="818" type="curve" smooth="yes"/>
-      <point x="122" y="818"/>
-      <point x="153" y="808"/>
-      <point x="203" y="789" type="curve"/>
-      <point x="232" y="776"/>
-      <point x="252" y="770"/>
-      <point x="261" y="770" type="curve" smooth="yes"/>
-      <point x="270" y="770"/>
-      <point x="275" y="771"/>
-      <point x="278" y="774" type="curve"/>
-      <point x="289" y="789"/>
-      <point x="299" y="801"/>
-      <point x="307" y="812" type="curve"/>
-      <point x="325" y="802" type="line"/>
-      <point x="326" y="801"/>
-      <point x="333" y="798"/>
-      <point x="344" y="793" type="curve"/>
-      <point x="315" y="736"/>
-      <point x="297" y="717"/>
-      <point x="262" y="717" type="curve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="30" y="738" type="line"/>
-      <point x="29" y="737"/>
-      <point x="29" y="736"/>
-      <point x="29" y="735" type="curve"/>
-      <point x="13" y="735" type="line"/>
-      <point x="16" y="747" type="line"/>
-    </contour>
-    <contour>
-      <point x="64" y="709" type="line"/>
-      <point x="67" y="715" type="line"/>
-      <point x="67" y="716" type="line"/>
-      <point x="73" y="713" type="line"/>
-    </contour>
-    <contour>
-      <point x="215" y="589" type="line"/>
-      <point x="215" y="38" type="line"/>
-      <point x="309" y="38" type="line"/>
-      <point x="309" y="0" type="line"/>
-      <point x="59" y="0" type="line"/>
-      <point x="59" y="38" type="line"/>
-      <point x="155" y="38" type="line"/>
-      <point x="155" y="589" type="line"/>
-      <point x="59" y="589" type="line"/>
-      <point x="59" y="627" type="line"/>
-      <point x="307" y="627" type="line"/>
-      <point x="307" y="589" type="line"/>
-    </contour>
+    <component base="tilde" xOffset="-76" yOffset="195"/>
+    <component base="I"/>
   </outline>
 </glyph>
