@@ -1,4 +1,4 @@
-/* For testing purposes using TTF */
+/* For testing purpose using TTF */
 
 
 @font-face {
@@ -6,14 +6,15 @@
     src: url("../font/pavanam.ttf") /* TTF file for CSS3 browsers */
 }
 
-
-
-
 body {
   font-family: Pavanam;
   margin: 0 auto;
   font-weight: 400;
   font-size: 18px;
+}
+
+h2 {
+    font-size: 32px;
 }
 
 #white{
