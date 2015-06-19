@@ -10,6 +10,11 @@ Pavanam means wind, in Tamil.
 ![](preview/pavanam-2.jpg)
 
 
+## Test run
+
+You can test run and see Pavanam font in action in this page for testing purposes [http://enathu.github.io/pavanam](http://enathu.github.io/pavanam) 
+
+
 ## Getting Involved
 
 Here is how **you** can help and contribute to the development of Neythal font.
