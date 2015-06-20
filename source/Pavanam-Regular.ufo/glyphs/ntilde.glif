@@ -2,4 +2,8 @@
 <glyph name="ntilde" format="1">
   <advance width="504"/>
   <unicode hex="00F1"/>
+  <outline>
+    <component base="n"/>
+    <component base="tilde"/>
+  </outline>
 </glyph>
