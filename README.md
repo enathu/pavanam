@@ -6,10 +6,6 @@ Pavanam is a Tamil typeface designed with the focus of greater legibility in sma
 
 Pavanam means wind, in Tamil.
 
-![](preview/pavanam-1.jpg)
-![](preview/pavanam-2.jpg)
-
-
 ## Test run
 
 You can test run and see Pavanam font in action in this page for testing purposes [http://enathu.github.io/pavanam](http://enathu.github.io/pavanam) 
