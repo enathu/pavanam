@@ -13,10 +13,6 @@ body {
   font-size: 18px;
 }
 
-h2 {
-    font-size: 32px;
-}
-
 #white{
   background: #fff;
     color: #000;
@@ -49,9 +45,6 @@ h2 {
     font-size: 10px;
 }
 
-h1 {
-    font-size: 2em;
-}
 
 .yellow {
     border: 1px solid #fd4;
@@ -61,4 +54,8 @@ h1 {
     color:#333;
     background: #fd4;
     padding: 4px;
+}
+
+.heading {
+    font-size: 2em;
 }
