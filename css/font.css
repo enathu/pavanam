@@ -59,3 +59,9 @@ body {
 .heading {
     font-size: 2em;
 }
+
+.lettering {
+    font-size: 72px;
+    width:100%
+        word-wrap: break-word;
+}s
