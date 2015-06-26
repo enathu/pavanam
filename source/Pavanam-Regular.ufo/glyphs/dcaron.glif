@@ -2,4 +2,6 @@
 <glyph name="dcaron" format="1">
   <advance width="491"/>
   <unicode hex="010F"/>
+  <outline>
+  </outline>
 </glyph>

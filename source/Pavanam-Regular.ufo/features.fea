@@ -1,11 +1,8 @@
+# Prefix: Prefix
 languagesystem DFLT dflt;
 languagesystem taml dflt;
 languagesystem tml2 dflt;
-
-
 # GSUB 
-
-
 lookup akhands {
   lookupflag 0;
     sub \tm_Ka \tm_Virama \tm_Ssa  by \tm_KSsa;
@@ -54,95 +51,37 @@ lookup post_base_sub_2 {
 
 lookup post_base_sub_3 {
   lookupflag 0;
-    sub [\tm_Nya \tm_Nna \tm_Ta \tm_Na \tm_Nnna \tm_Rra \tm_La ]' [\tm_VowelUu ]  by [\tm_NyU \tm_NnU \tm_TU \tm_NU \tm_NnnU \tm_RrU 
-	\tm_LU ];
-    sub [\tm_NyU \tm_NnU \tm_TU \tm_NU \tm_NnnU \tm_RrU \tm_LU ] [\tm_VowelUu ]'  by [\tm_VowelUu.alt1 ];
+    sub [ \tm_Nya \tm_Nna \tm_Ta \tm_Na \tm_Nnna \tm_Rra \tm_La  ]' [ \tm_VowelUu  ]  by [ \tm_NyU \tm_NnU \tm_TU \tm_NU \tm_NnnU \tm_RrU 
+	\tm_LU  ];
+    sub [ \tm_NyU \tm_NnU \tm_TU \tm_NU \tm_NnnU \tm_RrU \tm_LU  ] [ \tm_VowelUu  ]'  by [ \tm_VowelUu.alt1  ];
 } post_base_sub_3;
 
 lookup post_base_sub_4 {
   lookupflag 0;
-    sub [\tm_Ca \tm_Ha \tm_La \tm_Llla \tm_Ma \tm_Rra \tm_Sa \tm_Sha ] [\tm_VowelI ]'  by [\tm_VowelI.alt1 ];
+    sub [ \tm_Ca \tm_Ha \tm_La \tm_Llla \tm_Ma \tm_Rra \tm_Sa \tm_Sha  ] [ \tm_VowelI  ]'  by [ \tm_VowelI.alt1  ];
 } post_base_sub_4;
 
 lookup post_base_sub_5 {
   lookupflag 0;
-    sub [\tm_Ja ] [\tm_VowelI ]'  by [\tm_VowelI.alt2 ];
+    sub [ \tm_Ja  ] [ \tm_VowelI  ]'  by [ \tm_VowelI.alt2  ];
 } post_base_sub_5;
 
 lookup post_base_sub_6 {
   lookupflag 0;
-    sub [\tm_Ka \tm_Na \tm_Nya \tm_Ta ] [\tm_VowelI ]'  by [\tm_VowelI.alt3 ];
+    sub [ \tm_Ka \tm_Na \tm_Nya \tm_Ta  ] [ \tm_VowelI  ]'  by [ \tm_VowelI.alt3  ];
 } post_base_sub_6;
 
 lookup post_base_sub_7 {
   lookupflag 0;
-    sub [\tm_Nga \tm_Pa \tm_Ya \tm_Va ] [\tm_VowelU ]'  by [\tm_VowelU.alt1 ];
+    sub [ \tm_Nga \tm_Pa \tm_Ya \tm_Va  ] [ \tm_VowelU  ]'  by [ \tm_VowelU.alt1  ];
 } post_base_sub_7;
 
 lookup contextual_alternates_1 {
   lookupflag 0;
-    sub [\tm_Ra ]' [\tm_Virama \tm_Anusvara \tm_VowelI \tm_VowelIi ]  by [\tm_VowelAa ];
+    sub [ \tm_Ra  ]' [ \tm_Virama \tm_Anusvara \tm_VowelI \tm_VowelIi  ]  by [ \tm_VowelAa  ];
 } contextual_alternates_1;
 
-feature akhn {
-
- script taml;
-     language dflt ;
-      lookup akhands;
-
- script tml2;
-     language dflt ;
-      lookup akhands;
-} akhn;
-
-feature abvs {
-
- script taml;
-     language dflt ;
-      lookup above_base_sub_1;
-
- script tml2;
-     language dflt ;
-      lookup above_base_sub_1;
-} abvs;
-
-feature psts {
-
- script taml;
-     language dflt ;
-      lookup post_base_sub_1;
-      lookup post_base_sub_2;
-      lookup post_base_sub_3;
-      lookup post_base_sub_4;
-      lookup post_base_sub_5;
-      lookup post_base_sub_6;
-      lookup post_base_sub_7;
-
- script tml2;
-     language dflt ;
-      lookup post_base_sub_1;
-      lookup post_base_sub_2;
-      lookup post_base_sub_3;
-      lookup post_base_sub_4;
-      lookup post_base_sub_5;
-      lookup post_base_sub_6;
-      lookup post_base_sub_7;
-} psts;
-
-feature calt {
-
- script taml;
-     language dflt ;
-      lookup contextual_alternates_1;
-
- script tml2;
-     language dflt ;
-      lookup contextual_alternates_1;
-} calt;
-
 # GPOS 
-
-
 lookup kernHorizontalKerninglookup0 {
   lookupflag 0;
     pos \A \T -42;
@@ -254,112 +193,73 @@ lookup kernHorizontalKerninglookup0 {
 
 lookup abvm_1 {
   lookupflag 0;
-  markClass [\tm_Anusvara \tm_Virama ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
-  pos base [\tm_Ca ] <anchor 333 0> mark @MARKS_CLASS_0_LUT0_SUB0;
-  pos base [\tm_Ha ] <anchor 892 -13> mark @MARKS_CLASS_0_LUT0_SUB0;
-  pos base [\tm_Ja ] <anchor 405 0> mark @MARKS_CLASS_0_LUT0_SUB0;
-  pos base [\tm_KSsa ] <anchor 909 0> mark @MARKS_CLASS_0_LUT0_SUB0;
-  pos base [\tm_Ka ] <anchor 318 -6> mark @MARKS_CLASS_0_LUT0_SUB0;
-  pos base [\tm_La ] <anchor 451 -7> mark @MARKS_CLASS_0_LUT0_SUB0;
-  pos base [\tm_Lla ] <anchor 444 0> mark @MARKS_CLASS_0_LUT0_SUB0;
-  pos base [\tm_Llla ] <anchor 439 13> mark @MARKS_CLASS_0_LUT0_SUB0;
-  pos base [\tm_Ma ] <anchor 451 6> mark @MARKS_CLASS_0_LUT0_SUB0;
-  pos base [\tm_Na ] <anchor 267 6> mark @MARKS_CLASS_0_LUT0_SUB0;
-  pos base [\tm_Nga \tm_Ta ] <anchor 315 0> mark @MARKS_CLASS_0_LUT0_SUB0;
-  pos base [\tm_Nna ] <anchor 726 6> mark @MARKS_CLASS_0_LUT0_SUB0;
-  pos base [\tm_Nnna ] <anchor 577 -6> mark @MARKS_CLASS_0_LUT0_SUB0;
-  pos base [\tm_Nya ] <anchor 563 0> mark @MARKS_CLASS_0_LUT0_SUB0;
-  pos base [\tm_Pa ] <anchor 318 6> mark @MARKS_CLASS_0_LUT0_SUB0;
-  pos base [\tm_Rra ] <anchor 337 6> mark @MARKS_CLASS_0_LUT0_SUB0;
-  pos base [\tm_Sa ] <anchor 466 0> mark @MARKS_CLASS_0_LUT0_SUB0;
-  pos base [\tm_Sha ] <anchor 435 -6> mark @MARKS_CLASS_0_LUT0_SUB0;
-  pos base [\tm_Ssa ] <anchor 565 6> mark @MARKS_CLASS_0_LUT0_SUB0;
-  pos base [\tm_Tta ] <anchor 394 -6> mark @MARKS_CLASS_0_LUT0_SUB0;
-  pos base [\tm_Va ] <anchor 534 -19> mark @MARKS_CLASS_0_LUT0_SUB0;
-  pos base [\tm_VowelAa ] <anchor 286 6> mark @MARKS_CLASS_0_LUT0_SUB0;
-  pos base [\tm_Ya ] <anchor 314 0> mark @MARKS_CLASS_0_LUT0_SUB0;
+  markClass [ \tm_Anusvara \tm_Virama  ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
+  pos base [ \tm_Ca  ] <anchor 333 0> mark @MARKS_CLASS_0_LUT0_SUB0;
+  pos base [ \tm_Ja  ] <anchor 405 0> mark @MARKS_CLASS_0_LUT0_SUB0;
+  pos base [ \tm_KSsa  ] <anchor 909 0> mark @MARKS_CLASS_0_LUT0_SUB0;
+  pos base [ \tm_Lla  ] <anchor 444 0> mark @MARKS_CLASS_0_LUT0_SUB0;
+  pos base [ \tm_Llla  ] <anchor 439 13> mark @MARKS_CLASS_0_LUT0_SUB0;
+  pos base [ \tm_Ma  ] <anchor 451 6> mark @MARKS_CLASS_0_LUT0_SUB0;
+  pos base [ \tm_Na  ] <anchor 267 6> mark @MARKS_CLASS_0_LUT0_SUB0;
+  pos base [ \tm_Nga \tm_Ta  ] <anchor 315 0> mark @MARKS_CLASS_0_LUT0_SUB0;
+  pos base [ \tm_Nna  ] <anchor 726 6> mark @MARKS_CLASS_0_LUT0_SUB0;
+  pos base [ \tm_Nya  ] <anchor 563 0> mark @MARKS_CLASS_0_LUT0_SUB0;
+  pos base [ \tm_Pa  ] <anchor 318 6> mark @MARKS_CLASS_0_LUT0_SUB0;
+  pos base [ \tm_Rra  ] <anchor 337 6> mark @MARKS_CLASS_0_LUT0_SUB0;
+  pos base [ \tm_Sa  ] <anchor 466 0> mark @MARKS_CLASS_0_LUT0_SUB0;
+  pos base [ \tm_Sha  ] <anchor 435 -6> mark @MARKS_CLASS_0_LUT0_SUB0;
+  pos base [ \tm_Ssa  ] <anchor 565 6> mark @MARKS_CLASS_0_LUT0_SUB0;
+  pos base [ \tm_VowelAa  ] <anchor 286 6> mark @MARKS_CLASS_0_LUT0_SUB0;
+  pos base [ \tm_Ya  ] <anchor 314 0> mark @MARKS_CLASS_0_LUT0_SUB0;
 } abvm_1;
 
 lookup abvm_2 {
   lookupflag 0;
-  markClass [\tm_VowelIi ] <anchor 0 0> @MARKS_CLASS_0_LUT1_SUB0;
-  pos base [\tm_Ca ] <anchor 562 6> mark @MARKS_CLASS_0_LUT1_SUB0;
-  pos base [\tm_Ha ] <anchor 1141 6> mark @MARKS_CLASS_0_LUT1_SUB0;
-  pos base [\tm_Ja ] <anchor 684 19> mark @MARKS_CLASS_0_LUT1_SUB0;
-  pos base [\tm_KSsa ] <anchor 1304 6> mark @MARKS_CLASS_0_LUT1_SUB0;
-  pos base [\tm_Ka ] <anchor 582 -6> mark @MARKS_CLASS_0_LUT1_SUB0;
-  pos base [\tm_La ] <anchor 725 6> mark @MARKS_CLASS_0_LUT1_SUB0;
-  pos base [\tm_Lla ] <anchor 836 0> mark @MARKS_CLASS_0_LUT1_SUB0;
-  pos base [\tm_Llla ] <anchor 620 0> mark @MARKS_CLASS_0_LUT1_SUB0;
-  pos base [\tm_Ma ] <anchor 628 0> mark @MARKS_CLASS_0_LUT1_SUB0;
-  pos base [\tm_Na ] <anchor 520 0> mark @MARKS_CLASS_0_LUT1_SUB0;
-  pos base [\tm_Nga ] <anchor 798 0> mark @MARKS_CLASS_0_LUT1_SUB0;
-  pos base [\tm_Nna ] <anchor 1322 -6> mark @MARKS_CLASS_0_LUT1_SUB0;
-  pos base [\tm_Nnna ] <anchor 969 -6> mark @MARKS_CLASS_0_LUT1_SUB0;
-  pos base [\tm_Nya ] <anchor 801 0> mark @MARKS_CLASS_0_LUT1_SUB0;
-  pos base [\tm_Pa ] <anchor 630 -6> mark @MARKS_CLASS_0_LUT1_SUB0;
-  pos base [\tm_Rra ] <anchor 587 6> mark @MARKS_CLASS_0_LUT1_SUB0;
-  pos base [\tm_Sa ] <anchor 929 6> mark @MARKS_CLASS_0_LUT1_SUB0;
-  pos base [\tm_Sha ] <anchor 757 0> mark @MARKS_CLASS_0_LUT1_SUB0;
-  pos base [\tm_Ssa ] <anchor 941 6> mark @MARKS_CLASS_0_LUT1_SUB0;
-  pos base [\tm_Ta ] <anchor 559 6> mark @MARKS_CLASS_0_LUT1_SUB0;
-  pos base [\tm_Va ] <anchor 831 7> mark @MARKS_CLASS_0_LUT1_SUB0;
-  pos base [\tm_Ya ] <anchor 720 6> mark @MARKS_CLASS_0_LUT1_SUB0;
+  markClass [ \tm_VowelIi  ] <anchor 0 0> @MARKS_CLASS_0_LUT1_SUB0;
+  pos base [ \tm_Ca  ] <anchor 562 6> mark @MARKS_CLASS_0_LUT1_SUB0;
+  pos base [ \tm_Ha  ] <anchor 1141 6> mark @MARKS_CLASS_0_LUT1_SUB0;
+  pos base [ \tm_Ja  ] <anchor 684 19> mark @MARKS_CLASS_0_LUT1_SUB0;
+  pos base [ \tm_KSsa  ] <anchor 1304 6> mark @MARKS_CLASS_0_LUT1_SUB0;
+  pos base [ \tm_Ka  ] <anchor 582 -6> mark @MARKS_CLASS_0_LUT1_SUB0;
+  pos base [ \tm_La  ] <anchor 725 6> mark @MARKS_CLASS_0_LUT1_SUB0;
+  pos base [ \tm_Lla  ] <anchor 836 0> mark @MARKS_CLASS_0_LUT1_SUB0;
+  pos base [ \tm_Llla  ] <anchor 620 0> mark @MARKS_CLASS_0_LUT1_SUB0;
+  pos base [ \tm_Ma  ] <anchor 628 0> mark @MARKS_CLASS_0_LUT1_SUB0;
+  pos base [ \tm_Na  ] <anchor 520 0> mark @MARKS_CLASS_0_LUT1_SUB0;
+  pos base [ \tm_Nga  ] <anchor 798 0> mark @MARKS_CLASS_0_LUT1_SUB0;
+  pos base [ \tm_Nna  ] <anchor 1322 -6> mark @MARKS_CLASS_0_LUT1_SUB0;
+  pos base [ \tm_Nnna  ] <anchor 969 -6> mark @MARKS_CLASS_0_LUT1_SUB0;
+  pos base [ \tm_Nya  ] <anchor 801 0> mark @MARKS_CLASS_0_LUT1_SUB0;
+  pos base [ \tm_Pa  ] <anchor 630 -6> mark @MARKS_CLASS_0_LUT1_SUB0;
+  pos base [ \tm_Rra  ] <anchor 587 6> mark @MARKS_CLASS_0_LUT1_SUB0;
+  pos base [ \tm_Sa  ] <anchor 929 6> mark @MARKS_CLASS_0_LUT1_SUB0;
+  pos base [ \tm_Sha  ] <anchor 757 0> mark @MARKS_CLASS_0_LUT1_SUB0;
+  pos base [ \tm_Ssa  ] <anchor 941 6> mark @MARKS_CLASS_0_LUT1_SUB0;
+  pos base [ \tm_Ta  ] <anchor 559 6> mark @MARKS_CLASS_0_LUT1_SUB0;
+  pos base [ \tm_Va  ] <anchor 831 7> mark @MARKS_CLASS_0_LUT1_SUB0;
+  pos base [ \tm_Ya  ] <anchor 720 6> mark @MARKS_CLASS_0_LUT1_SUB0;
 } abvm_2;
 
 lookup kern {
   lookupflag 0;
-    @kc22_first_1 = [\tm_Au \tm_AuLengthMark \tm_E \tm_Ee \tm_Hundred \tm_Lla \tm_Nna \tm_Nnna \tm_Ra 
-	\tm_VowelAa \tm_VowelUu.alt1 ];
-    @kc22_second_1 = [\tm_A \tm_Aa \tm_Eight ];
-    @kc22_second_2 = [\tm_AuLengthMark \tm_CU \tm_CUu \tm_Ca \tm_E \tm_Ee \tm_Five \tm_Four \tm_Ha 
+    @kc22_first_1 = [ \tm_Au \tm_AuLengthMark \tm_E \tm_Ee \tm_Hundred \tm_Lla \tm_Nna \tm_Nnna \tm_Ra 
+	\tm_VowelAa \tm_VowelUu.alt1  ];
+    @kc22_second_1 = [ \tm_A \tm_Aa \tm_Eight  ];
+    @kc22_second_2 = [ \tm_AuLengthMark \tm_CU \tm_CUu \tm_Ca \tm_E \tm_Ee \tm_Five \tm_Four \tm_Ha 
 	\tm_KU \tm_Ka \tm_LU \tm_La \tm_LlU \tm_LlUu \tm_Lla \tm_LllUu \tm_MU 
 	\tm_MUu \tm_Merpadi \tm_Naal \tm_Nine \tm_NnU \tm_Nna \tm_NnnU \tm_Nnna 
 	\tm_NyU \tm_Nya \tm_One \tm_RU \tm_RUu \tm_Sa \tm_Seven \tm_Shree 
 	\tm_Six \tm_Ssa \tm_Ta \tm_Thousand \tm_TtU \tm_TtUu \tm_VUu \tm_Va 
-	\tm_Varavu \tm_Varudam \tm_VowelAi ];
-    @kc22_second_3 = [\tm_I ];
+	\tm_Varavu \tm_Varudam \tm_VowelAi  ];
+    @kc22_second_3 = [ \tm_I  ];
     pos @kc22_first_1 @kc22_second_1 -60;
     pos @kc22_first_1 @kc22_second_2 -40;
     pos @kc22_first_1 @kc22_second_3 -20;
 } kern;
 
-feature kern {
-
- script DFLT;
-     language dflt ;
-      lookup kernHorizontalKerninglookup0;
-      lookup kern;
-
- script taml;
-     language dflt ;
-      lookup kern;
-
- script tml2;
-     language dflt ;
-      lookup kern;
-} kern;
-
-feature abvm {
-
- script DFLT;
-     language dflt ;
-      lookup abvm_1;
-      lookup abvm_2;
-
- script taml;
-     language dflt ;
-      lookup abvm_1;
-      lookup abvm_2;
-
- script tml2;
-     language dflt ;
-      lookup abvm_1;
-      lookup abvm_2;
-} abvm;
 #Mark attachment classes (defined in GDEF, used in lookupflags)
 
-@GDEF_Simple = [\A \AE \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron 
+@GDEF_Simple = [ \A \AE \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron 
 	\Aogonek \Aring \Atilde \B \C \Cacute \Ccaron \Ccedilla \Ccircumflex \Cdotaccent 
 	\D \Dcaron \Dcroat \E \Eacute \Ecaron \Ecircumflex \Edieresis \Egrave \Emacron 
 	\Eogonek \Eth \Euro \F \G \Gbreve \Gcircumflex \Gdotaccent \H \Hbar \I \IJ \Iacute 
@@ -410,10 +310,79 @@ feature abvm {
 	\uni020C \uni020D \uni020E \uni020F \uni0218 \uni0219 \uni021A \uni021B \uni0237 
 	\uni0307 \uni030F \uni0311 \uni0326 \uni03BC \uni0964 \uni0965 \uni2074 \uni25CC 
 	\uogonek \uring \v \w \x \y \yacute \ydieresis \yen \z \zacute \zcaron \zdotaccent 
-	\zero ];
+	\zero  ];
 
 table GDEF {
   GlyphClassDef @GDEF_Simple, , , ;
 
 } GDEF;
+
+feature akhn {
+ script taml;
+     language dflt ;
+      lookup akhands;
+
+ script tml2;
+     language dflt ;
+      lookup akhands;
+} akhn;
+
+feature abvs {
+ script taml;
+     language dflt ;
+      lookup above_base_sub_1;
+
+ script tml2;
+     language dflt ;
+      lookup above_base_sub_1;
+} abvs;
+
+feature psts {
+ script taml;
+     language dflt ;
+      lookup post_base_sub_1;
+      lookup post_base_sub_2;
+      lookup post_base_sub_3;
+      lookup post_base_sub_4;
+      lookup post_base_sub_5;
+      lookup post_base_sub_6;
+      lookup post_base_sub_7;
+
+ script tml2;
+     language dflt ;
+      lookup post_base_sub_1;
+      lookup post_base_sub_2;
+      lookup post_base_sub_3;
+      lookup post_base_sub_4;
+      lookup post_base_sub_5;
+      lookup post_base_sub_6;
+      lookup post_base_sub_7;
+} psts;
+
+feature calt {
+ script taml;
+     language dflt ;
+      lookup contextual_alternates_1;
+
+ script tml2;
+     language dflt ;
+      lookup contextual_alternates_1;
+} calt;
+
+feature abvm {
+ script DFLT;
+     language dflt ;
+      lookup abvm_1;
+      lookup abvm_2;
+
+ script taml;
+     language dflt ;
+      lookup abvm_1;
+      lookup abvm_2;
+
+ script tml2;
+     language dflt ;
+      lookup abvm_1;
+      lookup abvm_2;
+} abvm;
 

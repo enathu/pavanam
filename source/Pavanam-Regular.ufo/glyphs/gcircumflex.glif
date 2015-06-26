@@ -3,7 +3,7 @@
   <advance width="500"/>
   <unicode hex="011D"/>
   <outline>
-    <component base="circumflex" xOffset="36.5" yOffset="2"/>
+    <component base="circumflex" xOffset="36.500" yOffset="2"/>
     <component base="g"/>
   </outline>
 </glyph>

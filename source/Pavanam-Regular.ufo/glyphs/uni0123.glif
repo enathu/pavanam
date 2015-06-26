@@ -2,4 +2,6 @@
 <glyph name="uni0123" format="1">
   <advance width="500"/>
   <unicode hex="0123"/>
+  <outline>
+  </outline>
 </glyph>
