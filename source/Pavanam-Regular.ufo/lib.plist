@@ -950,6 +950,8 @@
       <string>uni00A0</string>
       <string>uni0000</string>
     </array>
+    <key>com.schriftgestaltung.useNiceNames</key>
+    <integer>0</integer>
     <key>com.schriftgestaltung.fontMasterID</key>
     <string>8B3D03A2-C63C-45ED-A70B-DF8121CD0D15</string>
   </dict>

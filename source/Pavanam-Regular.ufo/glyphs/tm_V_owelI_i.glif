@@ -7,21 +7,9 @@
       <point x="0" y="0" type="move" name="_MARKS_CLASS_0_LUT1_SUB0"/>
     </contour>
     <contour>
-      <point x="-12" y="752" type="line"/>
-      <point x="-62" y="752"/>
-      <point x="-96" y="724"/>
-      <point x="-96" y="682" type="curve" smooth="yes"/>
-      <point x="-96" y="639"/>
-      <point x="-71" y="611"/>
-      <point x="-33" y="611" type="curve" smooth="yes"/>
-      <point x="2" y="611"/>
-      <point x="26" y="638"/>
-      <point x="26" y="678" type="curve" smooth="yes"/>
-      <point x="26" y="724"/>
-      <point x="-21" y="754"/>
-      <point x="-92" y="754" type="curve" smooth="yes"/>
-      <point x="-184" y="754"/>
-      <point x="-246" y="704"/>
+      <point x="-119.956" y="752.375" type="curve"/>
+      <point x="-196.339" y="743.222"/>
+      <point x="-246" y="696.124"/>
       <point x="-246" y="629" type="curve" smooth="yes"/>
       <point x="-246" y="547"/>
       <point x="-194" y="492"/>
@@ -42,9 +30,22 @@
       <point x="-103" y="567"/>
       <point x="-150" y="613"/>
       <point x="-150" y="682" type="curve" smooth="yes"/>
-      <point x="-150" y="746"/>
-      <point x="-95" y="788"/>
-      <point x="-12" y="788" type="curve"/>
+      <point x="-150" y="710.357"/>
+      <point x="-139.202" y="734.395"/>
+    </contour>
+    <contour>
+      <point x="-42.05" y="748.203" type="curve"/>
+      <point x="-75.1315" y="739.216"/>
+      <point x="-96" y="714.905"/>
+      <point x="-96" y="682" type="curve" smooth="yes"/>
+      <point x="-96" y="639"/>
+      <point x="-71" y="611"/>
+      <point x="-33" y="611" type="curve" smooth="yes"/>
+      <point x="2" y="611"/>
+      <point x="26" y="638"/>
+      <point x="26" y="678" type="curve" smooth="yes"/>
+      <point x="26" y="712.083"/>
+      <point x="0.19826" y="737.382"/>
     </contour>
   </outline>
 </glyph>
