@@ -3,7 +3,7 @@
 
 @font-face {
     font-family:"Pavanam";
-    src: url("../build/Pavanam-Regular.ttf") /* TTF file for CSS3 browsers */
+    src: url("../../build/Pavanam-Regular.ttf") /* TTF file for CSS3 browsers */
 }
 
 body {
