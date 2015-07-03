@@ -6,7 +6,7 @@
 .image-slider {
 	position:relative;
 	display: inline-block;
-	line-height: 0;
+	line-height: 0
 }
 
 /* Could use a pseudo-element, but they’re currently
@@ -17,7 +17,7 @@
 	width: 25px;
 	max-width: 100%;
 	overflow: hidden;
-	resize: horizontal;
+	resize: horizontal
 }
 
 /* Cross-browser resizer styling */
@@ -31,11 +31,11 @@
 	background-clip: content-box;
 	cursor: ew-resize;
 	-webkit-filter: drop-shadow(0 0 2px black);
-	filter: drop-shadow(0 0 2px black);
+	filter: drop-shadow(0 0 2px black)
 }
 
 .image-slider img {
 	user-select: none;
 	max-width: 700px;
-    margin: 10px auto;
+    margin: 10px auto
 }
