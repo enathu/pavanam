@@ -2,7 +2,7 @@
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
   <dict>
-    <key>@MMK_L_FF000000000000002</key>
+    <key>@MMK_L_FF000000000000003</key>
     <array>
       <string>tm_Au</string>
       <string>tm_AuLengthMark</string>
@@ -16,13 +16,13 @@
       <string>tm_VowelAa</string>
       <string>tm_VowelUu.alt1</string>
     </array>
-    <key>@MMK_R_FF000000000000002</key>
+    <key>@MMK_R_FF000000000000003</key>
     <array>
       <string>tm_A</string>
       <string>tm_Aa</string>
       <string>tm_Eight</string>
     </array>
-    <key>@MMK_R_FF000000000000003</key>
+    <key>@MMK_R_FF000000000000004</key>
     <array>
       <string>tm_AuLengthMark</string>
       <string>tm_CU</string>
@@ -70,7 +70,7 @@
       <string>tm_Varudam</string>
       <string>tm_VowelAi</string>
     </array>
-    <key>@MMK_R_FF000000000000004</key>
+    <key>@MMK_R_FF000000000000005</key>
     <array>
       <string>tm_I</string>
     </array>

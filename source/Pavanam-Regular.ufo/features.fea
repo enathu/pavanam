@@ -285,7 +285,7 @@ lookup abvm_2 {
   markClass [\tm_VowelIi ] <anchor 0 0> @MARKS_CLASS_0_LUT1_SUB0;
   pos base [\tm_Ca ] <anchor 562 6> mark @MARKS_CLASS_0_LUT1_SUB0;
   pos base [\tm_Ha ] <anchor 1141 6> mark @MARKS_CLASS_0_LUT1_SUB0;
-  pos base [\tm_Ja ] <anchor 684 19> mark @MARKS_CLASS_0_LUT1_SUB0;
+  pos base [\tm_Ja ] <anchor 695 14> mark @MARKS_CLASS_0_LUT1_SUB0;
   pos base [\tm_KSsa ] <anchor 1304 6> mark @MARKS_CLASS_0_LUT1_SUB0;
   pos base [\tm_Ka ] <anchor 582 -6> mark @MARKS_CLASS_0_LUT1_SUB0;
   pos base [\tm_La ] <anchor 725 6> mark @MARKS_CLASS_0_LUT1_SUB0;
@@ -304,7 +304,7 @@ lookup abvm_2 {
   pos base [\tm_Ssa ] <anchor 941 6> mark @MARKS_CLASS_0_LUT1_SUB0;
   pos base [\tm_Ta ] <anchor 559 6> mark @MARKS_CLASS_0_LUT1_SUB0;
   pos base [\tm_Va ] <anchor 831 7> mark @MARKS_CLASS_0_LUT1_SUB0;
-  pos base [\tm_Ya ] <anchor 720 6> mark @MARKS_CLASS_0_LUT1_SUB0;
+  pos base [\tm_Ya ] <anchor 696 2> mark @MARKS_CLASS_0_LUT1_SUB0;
 } abvm_2;
 
 lookup kern {
@@ -322,6 +322,7 @@ lookup kern {
     pos @kc21_first_1 @kc21_second_1 -60;
     pos @kc21_first_1 @kc21_second_2 -40;
     pos @kc21_first_1 @kc21_second_3 -20;
+  subtable;
 } kern;
 
 feature kern {
@@ -405,7 +406,7 @@ feature abvm {
 	\uni0205 \uni0206 \uni0207 \uni0208 \uni0209 \uni020A \uni020B \uni020C \uni020D 
 	\uni020E \uni020F \uni0218 \uni0219 \uni021A \uni021B \uni0237 \uni0307 \uni030F 
 	\uni0311 \uni0326 \uni03BC \uni0964 \uni0965 \uni2074 \uni25CC \uogonek \uring \v 
-	\w \x \y \yacute \ydieresis \yen \z \zacute \zcaron \zdotaccent \zero ];
+	\w \x \y \yacute \ydieresis \yen \z \zacute \zcaron \zdotaccent \zero \glyph472 ];
 @GDEF_Ligature = [\tm_CU \tm_CUu \tm_KSsa \tm_KU \tm_KUu \tm_LU \tm_LlU \tm_LlUu 
 	\tm_LllU \tm_LllUu \tm_MU \tm_MUu \tm_NU \tm_NgUu \tm_NnU \tm_NnnU \tm_NyU 
 	\tm_PUu \tm_RU \tm_RUu \tm_RrU \tm_Shree \tm_TU \tm_TtI \tm_TtIi \tm_TtU \tm_TtUu 

@@ -293,13 +293,11 @@
       <key>period</key>
       <integer>-42</integer>
     </dict>
-    <key>@MMK_L_FF000000000000002</key>
+    <key>@MMK_L_FF000000000000003</key>
     <dict>
-      <key>@MMK_R_FF000000000000002</key>
-      <integer>-60</integer>
       <key>@MMK_R_FF000000000000003</key>
-      <integer>-40</integer>
-      <key>@MMK_R_FF000000000000004</key>
+      <integer>-60</integer>
+      <key>@MMK_R_FF000000000000005</key>
       <integer>-20</integer>
     </dict>
   </dict>
