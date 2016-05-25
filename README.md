@@ -1,6 +1,5 @@
 # Pavanam
 
-
 Pavanam is a functional and eloquent graceful Tamil typeface that has its origins in the desire to create a modern feel for the Tamil text setting. The letterforms have been designed with particular attention to greater legibility in smaller sizes on screen and print. Reading size of Pavanam will add an interesting texture to the paragraph. Latin counterpart is derived from Vernon Adam's [Pontano Sans](https://www.google.com/fonts/specimen/Pontano+Sans), and slightly modified to match with the Tamil typeface design metrics.
 
 Pavanam font works like a breeze with various design projects from identity, editorial and signage usage. Hence the name Pavanam means a gentle wind, in Tamil.
